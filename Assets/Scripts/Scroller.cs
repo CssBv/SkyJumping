@@ -15,7 +15,7 @@ public class Scroller : MonoBehaviour
 
     private float scrollSpeed = -5;
 
-d Dk
+
     void Start()
     {   
         /*Get Collider from gameobject*/
@@ -39,7 +39,7 @@ d Dk
         /*If position in x is less than  negative width*/
         if(transform.position.x < -width)
         {   
-            /*Reset background's position by creating vector 2 that has as argument x  (multuplies width * 2 (background twin )in x position)  and 0 in y */
+            /*Reset background's position by creating vector 2 that has as argument x  (multiplies width * 2 (background twin )in x position)  and 0 in y */
             Vector2 resetPosition = new Vector2(width * 2f, 0);
             /*Store the position of gameobject's transform. Equal it to transform.position plus resetPosition and cast the sum into a Vector2*/
             transform.position = (Vector2)transform.position + resetPosition;
