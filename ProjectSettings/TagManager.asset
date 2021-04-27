@@ -50,3 +50,6 @@ TagManager:
   - name: Ground
     uniqueID: 2858144231
     locked: 0
+  - name: Text
+    uniqueID: 4277975873
+    locked: 0
